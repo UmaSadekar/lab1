@@ -23,7 +23,7 @@ def health():
 @app.get("/run-check")
 def run_check():
     """
-    INTENTIONALY INSECURE TRAINING EXAMPLE. 123
+    INTENTIONALY INSECURE TRAINING EXAMPLE. 12334545
 
     The user-controlled 'cmd' value is passed to a shell.
     Bandit should flag this as a shell-injection risk.
